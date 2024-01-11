@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
@@ -87,7 +86,9 @@
                         android:id="@+id/userEmail"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:hint="@string/emailO" />
+                        android:hint="@string/emailO"
+                        android:textColorHint="#5E5E5E"
+                        android:textColor="@color/black"/>
 
                 </LinearLayout>
 
@@ -116,7 +117,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:hint="@string/passwordO"
-                        android:inputType="textPassword" />
+                        android:inputType="textPassword"
+                        android:textColorHint="#5E5E5E"
+                        android:textColor="@color/black"/>
 
                 </LinearLayout>
 
@@ -144,7 +147,9 @@
                         android:id="@+id/userName"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:hint="@string/usernameO" />
+                        android:hint="@string/usernameO"
+                        android:textColorHint="#5E5E5E"
+                        android:textColor="@color/black"/>
 
                 </LinearLayout>
 

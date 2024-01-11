@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity"
-        android:background="#80CBC4">
+        android:background="@color/main_background">
 
 
         <androidx.cardview.widget.CardView
@@ -86,7 +86,9 @@
                         android:id="@+id/userEmail"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:hint="@string/username_email" />
+                        android:hint="@string/username_email"
+                        android:textColorHint="#5E5E5E"
+                        android:textColor="@color/black"/>
 
                 </LinearLayout>
 
@@ -115,7 +117,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:hint="@string/passwordO"
-                        android:inputType="textPassword" />
+                        android:inputType="textPassword"
+                        android:textColorHint="#5E5E5E"
+                        android:textColor="@color/black"/>
 
                 </LinearLayout>
 
