@@ -149,7 +149,7 @@
                 </LinearLayout>
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/btnLogin"
+                    android:id="@+id/btnSignUp"
                     android:layout_width="100dp"
                     android:layout_height="50dp"
                     android:background="@drawable/login_custom_btn"
