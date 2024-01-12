@@ -22,4 +22,5 @@
     <string name="usernameO">Username</string>
     <string name="emailO">Email</string>
     <string name="sign_up">Sign Up</string>
+    <string name="no_posts">No Posts</string>
 </resources>
